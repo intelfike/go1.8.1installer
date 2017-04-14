@@ -17,4 +17,4 @@ export PATH=\$PATH:\$GOROOT/bin
 export GOPATH=\$HOME/Project/go
 export PATH=\$PATH:\$GOPATH/bin
 " >> ~/.bashrc
-echo "Do 'source ~/.bashrc'"
+sh ~/.bashrc
