@@ -1,5 +1,3 @@
-# エラーでスクリプトを中断
-set -e
 # 必要なツールをインストール
 apt-get update -y
 apt-get upgrade -y
@@ -17,4 +15,3 @@ export PATH=\$PATH:\$GOROOT/bin
 export GOPATH=\$HOME/Project/go
 export PATH=\$PATH:\$GOPATH/bin
 " >> ~/.bashrc
-sh ~/.bashrc
